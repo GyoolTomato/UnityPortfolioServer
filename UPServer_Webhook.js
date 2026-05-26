@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-app.post('/webhook', (req, res) => {
+app.post('/UPSWebhook', (req, res) => {
     console.log('Push detected');
 
     exec(`
